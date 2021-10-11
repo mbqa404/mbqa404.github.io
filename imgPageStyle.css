@@ -1,0 +1,156 @@
+.main-container{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+}
+.header-container{
+    height: 48px;
+}
+.header-link{
+    float: right;
+    padding: 0 15px
+}
+.header-link > a {
+font-family: arial,sans-serif;
+ text-decoration: none;
+ color: rgba(0,0,0,0.87);
+ font-size: 12px;
+ padding-left: 10px;
+}
+
+.header-link > a:hover{
+    text-decoration: underline;
+}
+   
+.logo-container{
+    padding-top: 109px;
+}
+
+.test{
+    background-size: 272px 92px;
+    height: 92px;
+    width: 272px;
+}
+#logo{
+    background-image: url(https://www.google.com.ua/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.picture-title{
+    position: relative;
+}
+
+
+
+.picture-title > span{
+    color: #4285f4;
+    font: 16px/16px roboto-regular, arial, sans-serif;
+    position: relative;
+    left: 215px;
+    top: 76px;
+    white-space: nowrap;
+}
+
+.search-field{
+    padding: 20px;
+}
+.search-field-container{
+    background: #fff;
+    display: flex;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    z-index: 3;
+    height: 44px;
+    margin: 0 auto;
+    width: 543px;
+}
+.search-field-container:hover{
+    background-color: #fff;
+    box-shadow: 0 1px 6px rgb(32 33 36 / 28%);
+    border-color: rgba(223,225,229,0);
+}
+
+/*icon block*/
+.search-icon > span {
+    margin-left: 6px;
+}
+.search-icon > span > img{
+    margin: 12px;
+    height: 20px;
+    width: 14px;
+}
+
+.keyboard-icon > span > img{
+    margin: 11px 20px;
+    height: 20px;
+    width: 20px;
+}
+
+.mic-icon > span > img{
+    margin: 10px 20px 10px 0px;
+    height: 20px;
+    width: 20px;
+}
+
+
+.search-field-container > input{
+    background-color: transparent;
+    border: none;
+    margin: 0;
+    padding: 6px;
+    color: rgba(0,0,0,.87);
+    word-wrap: break-word;
+    outline: none;
+    display: flex;
+    flex: 100%;
+    -webkit-tap-highlight-color: transparent;
+    height: 31px;
+    font-size: 16px;
+}
+
+
+.footer-region h1 {
+    padding: 15px 30px;
+    border-bottom: 1px solid #dadce0;
+    font-size: 15px;
+    color: #70757a;
+    font-weight: 500;
+    font-family: arial,sans-serif;
+}
+
+.footer-container{
+    background-color: #f2f2f2;
+    position: fixed;
+    bottom: 0;
+    display: block;
+    width: 100%;
+    
+}
+
+.footer-links{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 46px;
+    text-align: center;
+    padding: 0 20px;
+}
+
+.footer-links a{
+    color: #70757a;
+    text-decoration: none;
+    padding: 15px;
+    font-size: 15px;
+    font-family: arial,sans-serif;
+    display: inline-block;
+    text-align: center;
+}
+.footer-links a:hover{
+    color: #70757a;
+    text-decoration: underline;
+}
