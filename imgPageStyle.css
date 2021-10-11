@@ -1,60 +1,51 @@
-.main-container{
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-    position: absolute;
-    width: 100%;
-}
+/*Body block*/
+
+
+
+/*Header block*/
 .header-container{
-    height: 48px;
+    display: block;
+    height: 18px;
 }
 .header-link{
     float: right;
     padding: 0 15px
 }
 .header-link > a {
-font-family: arial,sans-serif;
- text-decoration: none;
- color: rgba(0,0,0,0.87);
- font-size: 12px;
- padding-left: 10px;
-}
-
+    font-family: arial,sans-serif;
+     text-decoration: none;
+     color: rgba(0,0,0,0.87);
+     font-size: 12px;
+     padding-left: 10px;
+    }
 .header-link > a:hover{
     text-decoration: underline;
 }
-   
-.logo-container{
-    padding-top: 109px;
-}
 
-.test{
-    background-size: 272px 92px;
-    height: 92px;
-    width: 272px;
+/* Logo block */
+.logo-container{
+    padding-top: 125px
 }
-#logo{
-    background-image: url(https://www.google.com.ua/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png);
+#glogo{
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
-
-.picture-title{
-    position: relative;
+.logo{
+    width: 272px;
+    height: 92px;
+    margin-left: auto;
+    margin-right: auto;
 }
-
-
-
-.picture-title > span{
+.logo > span{
+    position: relative;
+    top: -20px;
+    left: 216px;
     color: #4285f4;
     font: 16px/16px roboto-regular, arial, sans-serif;
-    position: relative;
-    left: 215px;
-    top: 76px;
-    white-space: nowrap;
 }
 
+/*Search block*/
 .search-field{
     padding: 20px;
 }
@@ -67,7 +58,22 @@ font-family: arial,sans-serif;
     z-index: 3;
     height: 44px;
     margin: 0 auto;
-    width: 543px;
+    width: 534px;
+    max-width: 584px;
+}
+.search-field-container > input{
+    background-color: transparent;
+    border: none;
+    margin: 0;
+    padding: 6px;
+    color: rgba(0,0,0,.87);
+    word-wrap: break-word;
+    outline: none;
+    display: flex;
+    flex: 100%;
+    -webkit-tap-highlight-color: transparent;
+    height: 31px;
+    font-size: 16px;
 }
 .search-field-container:hover{
     background-color: #fff;
@@ -84,6 +90,11 @@ font-family: arial,sans-serif;
     height: 20px;
     width: 14px;
 }
+.camera-icon > span > img{
+    margin: 10px 0px;
+    height: 20px;
+    width: 20px;
+}
 
 .keyboard-icon > span > img{
     margin: 11px 20px;
@@ -98,24 +109,10 @@ font-family: arial,sans-serif;
 }
 
 
-.search-field-container > input{
-    background-color: transparent;
-    border: none;
-    margin: 0;
-    padding: 6px;
-    color: rgba(0,0,0,.87);
-    word-wrap: break-word;
-    outline: none;
-    display: flex;
-    flex: 100%;
-    -webkit-tap-highlight-color: transparent;
-    height: 31px;
-    font-size: 16px;
-}
-
+/*Footer block*/
 
 .footer-region h1 {
-    padding: 15px 30px;
+    padding: 7px 30px;
     border-bottom: 1px solid #dadce0;
     font-size: 15px;
     color: #70757a;

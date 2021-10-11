@@ -1,33 +1,31 @@
 <!DOCTYPE html>
-<html lang="en-US">
+<html>
     <head>
         <title>Google Pictures</title>
         <link rel="stylesheet" href="imgPageStyle.css">
         <link rel="shortcut icon" href="src/img/favicon.ico" type="image/x-icon">
     </head>
     <body>
-        <div class="main-container">
+        
+        <div class="body-container">
+            <!-- Header container -->
             <div class="header-container">
                 <div class="header-link">
                     <a href="index.html">Google Search</a>
                     <a href="advancedSearch.html">Advanced Search</a>
                 </div>
             </div>
-            <div class="logo-container">
-                <div class="test">
-                    <div id="logo" style="background-size:272px 92px;height:92px;width:272px"></div>
-                    </div>
-                    <div class="img-text">
-                        <span>
-                            <font>
-                                Pictures
-                            </font>
-                        </span>
-                    </div>
-                </div>
 
+            <!-- Logo Container -->
+            <div class="logo-container">
+                <div class="logo">
+                    <img src="src/img/logo.png" alt="logo" id="glogo">
+                    <span>Pictures</span>
+                </div>
             </div>
-            <div class="form-conatiner">
+
+            <!-- Search Container -->
+            <div class="search-container">
                 <form action="https://google.com/search">
                     <div class="search-field">
                         <div class="search-field-container">
@@ -37,6 +35,11 @@
                                 </span>
                             </div>
                             <input type="text" name="q">
+                            <div class="camera-icon">
+                                <span>
+                                    <img src="src/img/camera_icon.svg" alt="camera">
+                                </span>
+                            </div>
                             <div class="keyboard-icon">
                                 <span>
                                     <img src="src/img/keyboard_icon.svg" alt="keyboard">
@@ -51,13 +54,14 @@
                         </div>
                     </div>
                 </form>
-            </div>
-            <div class="footer-container">
 
+            </div>
+
+            <!-- Footer Container -->
+            <div class="footer-container">
                 <div class="footer-region">
                     <h1>Ukraine</h1>
                 </div>
-
                 <div class="footer-links">
                     <div class="footer-links-left">
                         <a href="">Everything about Google</a>
@@ -72,6 +76,11 @@
                     </div>
                 </div>
             </div>
+
+
+
+
         </div>
+
     </body>
 </html>
